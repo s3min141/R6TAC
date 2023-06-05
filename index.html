@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="html5Doctor.css">+
+  <link rel="stylesheet" href="style.css">
+  <title>R6TAC_E36</title>
+</head>
+
+<body>
+  <div class="attack_slot">
+    <img src="./opIcon/1sledge.jpg" alt="" class="drag-and-drop icon" id="sledge">
+    <img src="./opIcon/1sledge.jpg" alt="" class="drag-and-drop icon" id="sledge">
+    <img src="./opIcon/2thatcher.jpg" alt="" class="drag-and-drop icon" id="thatcher">
+    <img src="./opIcon/2thatcher.jpg" alt="" class="drag-and-drop icon" id="thatcher">
+    <img src="./opIcon/2thatcher.jpg" alt="" class="drag-and-drop icon" id="thatcher">
+    <img src="./opIcon/2thatcher.jpg" alt="" class="drag-and-drop icon" id="thatcher">
+    <img src="./opIcon/3ash.jpg" alt="" class="drag-and-drop icon" id="ash">
+    <img src="./opIcon/3ash.jpg" alt="" class="drag-and-drop icon" id="ash">
+    <img src="./opIcon/3ash.jpg" alt="" class="drag-and-drop icon" id="ash">
+    <img src="./opIcon/3ash.jpg" alt="" class="drag-and-drop icon" id="ash">
+    <img src="./opIcon/4thermite.jpg" alt="" class="drag-and-drop icon" id="thermite">
+    <img src="./opIcon/4thermite.jpg" alt="" class="drag-and-drop icon" id="thermite">
+    <img src="./opIcon/4thermite.jpg" alt="" class="drag-and-drop icon" id="thermite">
+    <img src="./opIcon/5twitch.jpg" alt="" class="drag-and-drop icon" id="twitch">
+    <img src="./opIcon/5twitch.jpg" alt="" class="drag-and-drop icon" id="twitch">
+    <img src="./opIcon/5twitch.jpg" alt="" class="drag-and-drop icon" id="twitch">
+    <img src="./opIcon/6montagne.jpg" alt="" class="drag-and-drop icon" id="montagne">
+    <img src="./opIcon/6montagne.jpg" alt="" class="drag-and-drop icon" id="montagne">
+    <img src="./opIcon/7glaz.jpg" alt="" class="drag-and-drop icon" id="glaz">
+    <img src="./opIcon/7glaz.jpg" alt="" class="drag-and-drop icon" id="glaz">
+    <img src="./opIcon/8fuze.jpg" alt="" class="drag-and-drop icon" id="fuze">
+    <img src="./opIcon/8fuze.jpg" alt="" class="drag-and-drop icon" id="fuze">
+    <img src="./opIcon/8fuze.jpg" alt="" class="drag-and-drop icon" id="fuze">
+    <img src="./opIcon/8fuze.jpg" alt="" class="drag-and-drop icon" id="fuze">
+    <img src="./opIcon/9blitz.jpg" alt="" class="drag-and-drop icon" id="blitz">
+    <img src="./opIcon/9blitz.jpg" alt="" class="drag-and-drop icon" id="blitz">
+    <img src="./opIcon/10iq.jpg" alt="" class="drag-and-drop icon" id="iq">
+    <img src="./opIcon/10iq.jpg" alt="" class="drag-and-drop icon" id="iq">
+    <img src="./opIcon/11buck.jpg" alt="" class="drag-and-drop icon" id="buck">
+    <img src="./opIcon/11buck.jpg" alt="" class="drag-and-drop icon" id="buck">
+    <img src="./opIcon/12blackbeard.jpg" alt="" class="drag-and-drop icon" id="blackbeard">
+    <img src="./opIcon/12blackbeard.jpg" alt="" class="drag-and-drop icon" id="blackbeard">
+    <img src="./opIcon/13capitao.jpg" alt="" class="drag-and-drop icon" id="capitao">
+    <img src="./opIcon/13capitao.jpg" alt="" class="drag-and-drop icon" id="capitao">
+    <img src="./opIcon/13capitao.jpg" alt="" class="drag-and-drop icon" id="capitao">
+    <img src="./opIcon/13capitao.jpg" alt="" class="drag-and-drop icon" id="capitao">
+    <img src="./opIcon/13capitao.jpg" alt="" class="drag-and-drop icon" id="capitao">
+    <img src="./opIcon/14hibana.jpg" alt="" class="drag-and-drop icon" id="hibana">
+    <img src="./opIcon/14hibana.jpg" alt="" class="drag-and-drop icon" id="hibana">
+    <img src="./opIcon/14hibana.jpg" alt="" class="drag-and-drop icon" id="hibana">
+    <img src="./opIcon/14hibana.jpg" alt="" class="drag-and-drop icon" id="hibana">
+    <img src="./opIcon/15jackal.jpg" alt="" class="drag-and-drop icon" id="jackal">
+    <img src="./opIcon/15jackal.jpg" alt="" class="drag-and-drop icon" id="jackal">
+    <img src="./opIcon/16ying.jpg" alt="" class="drag-and-drop icon" id="ying">
+    <img src="./opIcon/16ying.jpg" alt="" class="drag-and-drop icon" id="ying">
+    <img src="./opIcon/16ying.jpg" alt="" class="drag-and-drop icon" id="ying">
+    <img src="./opIcon/16ying.jpg" alt="" class="drag-and-drop icon" id="ying">
+    <img src="./opIcon/17zofia.jpg" alt="" class="drag-and-drop icon" id="zofia">
+    <img src="./opIcon/17zofia.jpg" alt="" class="drag-and-drop icon" id="zofia">
+    <img src="./opIcon/17zofia.jpg" alt="" class="drag-and-drop icon" id="zofia">
+    <img src="./opIcon/17zofia.jpg" alt="" class="drag-and-drop icon" id="zofia">
+    <img src="./opIcon/17zofia.jpg" alt="" class="drag-and-drop icon" id="zofia">
+    <img src="./opIcon/18dokkaebi.jpg" alt="" class="drag-and-drop icon" id="dokkaebi">
+    <img src="./opIcon/18dokkaebi.jpg" alt="" class="drag-and-drop icon" id="dokkaebi">
+    <img src="./opIcon/19lion.jpg" alt="" class="drag-and-drop icon" id="lion">
+    <img src="./opIcon/19lion.jpg" alt="" class="drag-and-drop icon" id="lion">
+    <img src="./opIcon/20finka.jpg" alt="" class="drag-and-drop icon" id="finka">
+    <img src="./opIcon/20finka.jpg" alt="" class="drag-and-drop icon" id="finka">
+    <img src="./opIcon/21marverick.jpg" alt="" class="drag-and-drop icon" id="marverick">
+    <img src="./opIcon/21marverick.jpg" alt="" class="drag-and-drop icon" id="marverick">
+    <img src="./opIcon/21marverick.jpg" alt="" class="drag-and-drop icon" id="marverick">
+    <img src="./opIcon/21marverick.jpg" alt="" class="drag-and-drop icon" id="marverick">
+    <img src="./opIcon/21marverick.jpg" alt="" class="drag-and-drop icon" id="marverick">
+    <img src="./opIcon/22nomad.jpg" alt="" class="drag-and-drop icon" id="nomad">
+    <img src="./opIcon/22nomad.jpg" alt="" class="drag-and-drop icon" id="nomad">
+    <img src="./opIcon/22nomad.jpg" alt="" class="drag-and-drop icon" id="nomad">
+    <img src="./opIcon/22nomad.jpg" alt="" class="drag-and-drop icon" id="nomad">
+    <img src="./opIcon/23gridlock.jpg" alt="" class="drag-and-drop icon" id="gridlock">
+    <img src="./opIcon/23gridlock.jpg" alt="" class="drag-and-drop icon" id="gridlock">
+    <img src="./opIcon/23gridlock.jpg" alt="" class="drag-and-drop icon" id="gridlock">
+    <img src="./opIcon/23gridlock.jpg" alt="" class="drag-and-drop icon" id="gridlock">
+    <img src="./opIcon/24nokk.jpg" alt="" class="drag-and-drop icon" id="nokk">
+    <img src="./opIcon/24nokk.jpg" alt="" class="drag-and-drop icon" id="nokk">
+    <img src="./opIcon/25amaru.jpg" alt="" class="drag-and-drop icon" id="amaru">
+    <img src="./opIcon/25amaru.jpg" alt="" class="drag-and-drop icon" id="amaru">
+    <img src="./opIcon/26kali.jpg" alt="" class="drag-and-drop icon" id="kali">
+    <img src="./opIcon/26kali.jpg" alt="" class="drag-and-drop icon" id="kali">
+    <img src="./opIcon/26kali.jpg" alt="" class="drag-and-drop icon" id="kali">
+    <img src="./opIcon/26kali.jpg" alt="" class="drag-and-drop icon" id="kali">
+    <img src="./opIcon/27iana.jpg" alt="" class="drag-and-drop icon" id="iana">
+    <img src="./opIcon/27iana.jpg" alt="" class="drag-and-drop icon" id="iana">
+    <img src="./opIcon/27iana.jpg" alt="" class="drag-and-drop icon" id="iana">
+    <img src="./opIcon/27iana.jpg" alt="" class="drag-and-drop icon" id="iana">
+    <img src="./opIcon/27iana.jpg" alt="" class="drag-and-drop icon" id="iana">
+    <img src="./opIcon/28ace.jpg" alt="" class="drag-and-drop icon" id="ace">
+    <img src="./opIcon/28ace.jpg" alt="" class="drag-and-drop icon" id="ace">
+    <img src="./opIcon/28ace.jpg" alt="" class="drag-and-drop icon" id="ace">
+    <img src="./opIcon/28ace.jpg" alt="" class="drag-and-drop icon" id="ace">
+    <img src="./opIcon/29zero.jpg" alt="" class="drag-and-drop icon" id="zero">
+    <img src="./opIcon/29zero.jpg" alt="" class="drag-and-drop icon" id="zero">
+    <img src="./opIcon/29zero.jpg" alt="" class="drag-and-drop icon" id="zero">
+    <img src="./opIcon/29zero.jpg" alt="" class="drag-and-drop icon" id="zero">
+    <img src="./opIcon/30flores.jpg" alt="" class="drag-and-drop icon" id="flores">
+    <img src="./opIcon/30flores.jpg" alt="" class="drag-and-drop icon" id="flores">
+    <img src="./opIcon/30flores.jpg" alt="" class="drag-and-drop icon" id="flores">
+    <img src="./opIcon/30flores.jpg" alt="" class="drag-and-drop icon" id="flores">
+    <img src="./opIcon/30flores.jpg" alt="" class="drag-and-drop icon" id="flores">
+    <img src="./opIcon/31osa.jpg" alt="" class="drag-and-drop icon" id="osa">
+    <img src="./opIcon/31osa.jpg" alt="" class="drag-and-drop icon" id="osa">
+    <img src="./opIcon/31osa.jpg" alt="" class="drag-and-drop icon" id="osa">
+    <img src="./opIcon/32sens.jpg" alt="" class="drag-and-drop icon" id="sens">
+    <img src="./opIcon/32sens.jpg" alt="" class="drag-and-drop icon" id="sens">
+    <img src="./opIcon/32sens.jpg" alt="" class="drag-and-drop icon" id="sens">
+    <img src="./opIcon/32sens.jpg" alt="" class="drag-and-drop icon" id="sens">
+    <div class="drone_slot">
+      <span>drone</span>
+    </div>
+    <img src="./gadgetIcon/drone.jpg" alt="" class="drone gadget drag-and-drop">
+    <img src="./gadgetIcon/drone.jpg" alt="" class="drone gadget drag-and-drop">
+    <img src="./gadgetIcon/drone.jpg" alt="" class="drone gadget drag-and-drop">
+    <img src="./gadgetIcon/drone.jpg" alt="" class="drone gadget drag-and-drop">
+    <img src="./gadgetIcon/drone.jpg" alt="" class="drone gadget drag-and-drop">
+    <img src="./gadgetIcon/drone.jpg" alt="" class="drone gadget drag-and-drop">
+    <img src="./gadgetIcon/drone.jpg" alt="" class="drone gadget drag-and-drop">
+    <img src="./gadgetIcon/drone.jpg" alt="" class="drone gadget drag-and-drop">
+    <img src="./gadgetIcon/drone.jpg" alt="" class="drone gadget drag-and-drop">
+    <img src="./gadgetIcon/drone.jpg" alt="" class="drone gadget drag-and-drop">
+    <div class="bleaching_slot">
+      <span>bleaching charge</span>
+    </div>
+    <img src="./gadgetIcon/bleaching.jpg" alt="" class="bleaching gadget drag-and-drop">
+    <img src="./gadgetIcon/bleaching.jpg" alt="" class="bleaching gadget drag-and-drop">
+    <img src="./gadgetIcon/bleaching.jpg" alt="" class="bleaching gadget drag-and-drop">
+    <img src="./gadgetIcon/bleaching.jpg" alt="" class="bleaching gadget drag-and-drop">
+    <img src="./gadgetIcon/bleaching.jpg" alt="" class="bleaching gadget drag-and-drop">
+    <img src="./gadgetIcon/bleaching.jpg" alt="" class="bleaching gadget drag-and-drop">
+    <img src="./gadgetIcon/bleaching.jpg" alt="" class="bleaching gadget drag-and-drop">
+    <img src="./gadgetIcon/bleaching.jpg" alt="" class="bleaching gadget drag-and-drop">
+    <img src="./gadgetIcon/bleaching.jpg" alt="" class="bleaching gadget drag-and-drop">
+    <img src="./gadgetIcon/bleaching.jpg" alt="" class="bleaching gadget drag-and-drop">
+    <img src="./gadgetIcon/bleaching.jpg" alt="" class="bleaching gadget drag-and-drop">
+    <img src="./gadgetIcon/bleaching.jpg" alt="" class="bleaching gadget drag-and-drop">
+    <img src="./gadgetIcon/bleaching.jpg" alt="" class="bleaching gadget drag-and-drop">
+    <img src="./gadgetIcon/bleaching.jpg" alt="" class="bleaching gadget drag-and-drop">
+    <img src="./gadgetIcon/bleaching.jpg" alt="" class="bleaching gadget drag-and-drop">
+    <div class="claymore_slot">
+      <span>claymore</span>
+    </div>
+    <img src="./gadgetIcon/claymore.jpg" alt="" class="claymore gadget drag-and-drop">
+    <img src="./gadgetIcon/claymore.jpg" alt="" class="claymore gadget drag-and-drop">
+    <img src="./gadgetIcon/claymore.jpg" alt="" class="claymore gadget drag-and-drop">
+    <img src="./gadgetIcon/claymore.jpg" alt="" class="claymore gadget drag-and-drop">
+    <img src="./gadgetIcon/claymore.jpg" alt="" class="claymore gadget drag-and-drop">
+    <div class="smoke_slot">
+      <span>smoke</span>
+    </div>
+    <img src="./gadgetIcon/smoke.jpg" alt="" class="smoke gadget drag-and-drop">
+    <img src="./gadgetIcon/smoke.jpg" alt="" class="smoke gadget drag-and-drop">
+    <img src="./gadgetIcon/smoke.jpg" alt="" class="smoke gadget drag-and-drop">
+    <img src="./gadgetIcon/smoke.jpg" alt="" class="smoke gadget drag-and-drop">
+    <img src="./gadgetIcon/smoke.jpg" alt="" class="smoke gadget drag-and-drop">
+    <img src="./gadgetIcon/smoke.jpg" alt="" class="smoke gadget drag-and-drop">
+    <img src="./gadgetIcon/smoke.jpg" alt="" class="smoke gadget drag-and-drop">
+    <img src="./gadgetIcon/smoke.jpg" alt="" class="smoke gadget drag-and-drop">
+    <img src="./gadgetIcon/smoke.jpg" alt="" class="smoke gadget drag-and-drop">
+    <img src="./gadgetIcon/smoke.jpg" alt="" class="smoke gadget drag-and-drop">
+    <div class="grenade_slot">
+      <span>grenade</span>
+    </div>
+    <img src="./gadgetIcon/grenade.jpg" alt="" class="grenade gadget drag-and-drop">
+    <img src="./gadgetIcon/grenade.jpg" alt="" class="grenade gadget drag-and-drop">
+    <img src="./gadgetIcon/grenade.jpg" alt="" class="grenade gadget drag-and-drop">
+    <img src="./gadgetIcon/grenade.jpg" alt="" class="grenade gadget drag-and-drop">
+    <img src="./gadgetIcon/grenade.jpg" alt="" class="grenade gadget drag-and-drop">
+    <img src="./gadgetIcon/grenade.jpg" alt="" class="grenade gadget drag-and-drop">
+    <img src="./gadgetIcon/grenade.jpg" alt="" class="grenade gadget drag-and-drop">
+    <img src="./gadgetIcon/grenade.jpg" alt="" class="grenade gadget drag-and-drop">
+    <img src="./gadgetIcon/grenade.jpg" alt="" class="grenade gadget drag-and-drop">
+    <img src="./gadgetIcon/grenade.jpg" alt="" class="grenade gadget drag-and-drop">
+    <div class="flash_slot">
+      <span>flash</span>
+    </div>
+    <img src="./gadgetIcon/flash.jpg" alt="" class="flash gadget drag-and-drop">
+    <img src="./gadgetIcon/flash.jpg" alt="" class="flash gadget drag-and-drop">
+    <img src="./gadgetIcon/flash.jpg" alt="" class="flash gadget drag-and-drop">
+    <img src="./gadgetIcon/flash.jpg" alt="" class="flash gadget drag-and-drop">
+    <img src="./gadgetIcon/flash.jpg" alt="" class="flash gadget drag-and-drop">
+    <img src="./gadgetIcon/flash.jpg" alt="" class="flash gadget drag-and-drop">
+    <img src="./gadgetIcon/flash.jpg" alt="" class="flash gadget drag-and-drop">
+    <img src="./gadgetIcon/flash.jpg" alt="" class="flash gadget drag-and-drop">
+    <img src="./gadgetIcon/flash.jpg" alt="" class="flash gadget drag-and-drop">
+    <img src="./gadgetIcon/flash.jpg" alt="" class="flash gadget drag-and-drop">
+    <img src="./gadgetIcon/flash.jpg" alt="" class="flash gadget drag-and-drop">
+    <img src="./gadgetIcon/flash.jpg" alt="" class="flash gadget drag-and-drop">
+    <img src="./gadgetIcon/flash.jpg" alt="" class="flash gadget drag-and-drop">
+    <img src="./gadgetIcon/flash.jpg" alt="" class="flash gadget drag-and-drop">
+    <img src="./gadgetIcon/flash.jpg" alt="" class="flash gadget drag-and-drop">
+    <div class="diffuser_slot">
+      <span>diffuser</span>
+    </div>
+    <img src="./gadgetIcon/diffuser.jpg" alt="" class="diffuser gadget drag-and-drop">
+    <img src="./gadgetIcon/diffuser.jpg" alt="" class="diffuser gadget drag-and-drop">
+    <img src="./gadgetIcon/diffuser.jpg" alt="" class="diffuser gadget drag-and-drop">
+    <img src="./gadgetIcon/diffuser.jpg" alt="" class="diffuser gadget drag-and-drop">
+    <img src="./gadgetIcon/diffuser.jpg" alt="" class="diffuser gadget drag-and-drop">
+    <div class="hardbleaching_slot">
+      <span>hard<br>bleaching<br>charge</span>
+    </div>
+    <img src="./gadgetIcon/hardbleaching.jpg" alt="" class="hardbleaching gadget drag-and-drop">
+    <img src="./gadgetIcon/hardbleaching.jpg" alt="" class="hardbleaching gadget drag-and-drop">
+    <img src="./gadgetIcon/hardbleaching.jpg" alt="" class="hardbleaching gadget drag-and-drop">
+    <img src="./gadgetIcon/hardbleaching.jpg" alt="" class="hardbleaching gadget drag-and-drop">
+    <img src="./gadgetIcon/hardbleaching.jpg" alt="" class="hardbleaching gadget drag-and-drop">
+  </div>
+  <div class="number_slot">
+    <h1 class="number_slot_title">numbering</h1>
+    <div class="drag-and-drop numbers No_1">
+      <h1>1</h1>
+    </div>
+    <div class="drag-and-drop numbers No_1">
+      <h1>1</h1>
+    </div>
+    <div class="drag-and-drop numbers No_1">
+      <h1>1</h1>
+    </div>
+    <div class="drag-and-drop numbers No_1">
+      <h1>1</h1>
+    </div>
+    <div class="drag-and-drop numbers No_1">
+      <h1>1</h1>
+    </div>
+    <div class="drag-and-drop numbers No_1">
+      <h1>1</h1>
+    </div>
+    <div class="drag-and-drop numbers No_2">
+      <h1>2</h1>
+    </div>
+    <div class="drag-and-drop numbers No_2">
+      <h1>2</h1>
+    </div>
+    <div class="drag-and-drop numbers No_2">
+      <h1>2</h1>
+    </div>
+    <div class="drag-and-drop numbers No_2">
+      <h1>2</h1>
+    </div>
+    <div class="drag-and-drop numbers No_2">
+      <h1>2</h1>
+    </div>
+    <div class="drag-and-drop numbers No_3">
+      <h1>3</h1>
+    </div>
+    <div class="drag-and-drop numbers No_3">
+      <h1>3</h1>
+    </div>
+    <div class="drag-and-drop numbers No_3">
+      <h1>3</h1>
+    </div>
+    <div class="drag-and-drop numbers No_3">
+      <h1>3</h1>
+    </div>
+    <div class="drag-and-drop numbers No_3">
+      <h1>3</h1>
+    </div>
+    <div class="drag-and-drop numbers No_4">
+      <h1>4</h1>
+    </div>
+    <div class="drag-and-drop numbers No_4">
+      <h1>4</h1>
+    </div>
+    <div class="drag-and-drop numbers No_4">
+      <h1>4</h1>
+    </div>
+    <div class="drag-and-drop numbers No_4">
+      <h1>4</h1>
+    </div>
+    <div class="drag-and-drop numbers No_4">
+      <h1>4</h1>
+    </div>
+    <div class="drag-and-drop numbers No_5">
+      <h1>5</h1>
+    </div>
+    <div class="drag-and-drop numbers No_5">
+      <h1>5</h1>
+    </div>
+    <div class="drag-and-drop numbers No_5">
+      <h1>5</h1>
+    </div>
+    <div class="drag-and-drop numbers No_5">
+      <h1>5</h1>
+    </div>
+    <div class="drag-and-drop numbers No_5">
+      <h1>5</h1>
+    </div>
+    <div class="drag-and-drop numbers No_5">
+      <h1>5</h1>
+    </div>
+  </div>
+  <!-- 攻撃側のエリア 終わり-->
+  <br>
+  <!-- 防衛側のエリア  -->
+  <div class="defense_slot">
+    <img src="./opIcon/1smoke.jpg" alt="" class="drag-and-drop icon" id="smoke">
+    <img src="./opIcon/1smoke.jpg" alt="" class="drag-and-drop icon" id="smoke">
+    <img src="./opIcon/1smoke.jpg" alt="" class="drag-and-drop icon" id="smoke">
+    <img src="./opIcon/1smoke.jpg" alt="" class="drag-and-drop icon" id="smoke">
+    <img src="./opIcon/2mute.jpg" alt="" class="drag-and-drop icon" id="mute">
+    <img src="./opIcon/2mute.jpg" alt="" class="drag-and-drop icon" id="mute">
+    <img src="./opIcon/2mute.jpg" alt="" class="drag-and-drop icon" id="mute">
+    <img src="./opIcon/2mute.jpg" alt="" class="drag-and-drop icon" id="mute">
+    <img src="./opIcon/2mute.jpg" alt="" class="drag-and-drop icon" id="mute">
+    <img src="./opIcon/3castle.jpg" alt="" class="drag-and-drop icon" id="castle">
+    <img src="./opIcon/3castle.jpg" alt="" class="drag-and-drop icon" id="castle">
+    <img src="./opIcon/3castle.jpg" alt="" class="drag-and-drop icon" id="castle">
+    <img src="./opIcon/3castle.jpg" alt="" class="drag-and-drop icon" id="castle">
+    <img src="./opIcon/3castle.jpg" alt="" class="drag-and-drop icon" id="castle">
+    <img src="./opIcon/4pulse.jpg" alt="" class="drag-and-drop icon" id="pulse">
+    <img src="./opIcon/4pulse.jpg" alt="" class="drag-and-drop icon" id="pulse">
+    <img src="./opIcon/5doc.jpg" alt="" class="drag-and-drop icon" id="doc">
+    <img src="./opIcon/5doc.jpg" alt="" class="drag-and-drop icon" id="doc">
+    <img src="./opIcon/6rook.jpg" alt="" class="drag-and-drop icon" id="rook">
+    <img src="./opIcon/6rook.jpg" alt="" class="drag-and-drop icon" id="rook">
+    <img src="./opIcon/7kapkan.jpg" alt="" class=" drag-and-drop icon" id="kapkan">
+    <img src="./opIcon/7kapkan.jpg" alt="" class=" drag-and-drop icon" id="kapkan">
+    <img src="./opIcon/7kapkan.jpg" alt="" class=" drag-and-drop icon" id="kapkan">
+    <img src="./opIcon/7kapkan.jpg" alt="" class=" drag-and-drop icon" id="kapkan">
+    <img src="./opIcon/7kapkan.jpg" alt="" class=" drag-and-drop icon" id="kapkan">
+    <img src="./opIcon/7kapkan.jpg" alt="" class=" drag-and-drop icon" id="kapkan">
+    <img src="./opIcon/8tachanka.jpg" alt="" class="drag-and-drop icon" id="tachanka">
+    <img src="./opIcon/8tachanka.jpg" alt="" class="drag-and-drop icon" id="tachanka">
+    <img src="./opIcon/9jager.jpg" alt="" class="drag-and-drop icon" id="jager">
+    <img src="./opIcon/9jager.jpg" alt="" class="drag-and-drop icon" id="jager">
+    <img src="./opIcon/9jager.jpg" alt="" class="drag-and-drop icon" id="jager">
+    <img src="./opIcon/9jager.jpg" alt="" class="drag-and-drop icon" id="jager">
+    <img src="./opIcon/10bandit.jpg" alt="" class="drag-and-drop icon" id="bandit">
+    <img src="./opIcon/10bandit.jpg" alt="" class="drag-and-drop icon" id="bandit">
+    <img src="./opIcon/10bandit.jpg" alt="" class="drag-and-drop icon" id="bandit">
+    <img src="./opIcon/10bandit.jpg" alt="" class="drag-and-drop icon" id="bandit">
+    <img src="./opIcon/10bandit.jpg" alt="" class="drag-and-drop icon" id="bandit">
+    <img src="./opIcon/11frost.jpg" alt="" class="drag-and-drop icon" id="frost">
+    <img src="./opIcon/11frost.jpg" alt="" class="drag-and-drop icon" id="frost">
+    <img src="./opIcon/11frost.jpg" alt="" class="drag-and-drop icon" id="frost">
+    <img src="./opIcon/11frost.jpg" alt="" class="drag-and-drop icon" id="frost">
+    <img src="./opIcon/12valkyrie.jpg" alt="" class="drag-and-drop icon" id="valkyrie">
+    <img src="./opIcon/12valkyrie.jpg" alt="" class="drag-and-drop icon" id="valkyrie">
+    <img src="./opIcon/12valkyrie.jpg" alt="" class="drag-and-drop icon" id="valkyrie">
+    <img src="./opIcon/12valkyrie.jpg" alt="" class="drag-and-drop icon" id="valkyrie">
+    <img src="./opIcon/13caveira.jpg" alt="" class="drag-and-drop icon" id="caveira">
+    <img src="./opIcon/13caveira.jpg" alt="" class="drag-and-drop icon" id="caveira">
+    <img src="./opIcon/14echo.jpg" alt="" class="drag-and-drop icon" id="echo">
+    <img src="./opIcon/14echo.jpg" alt="" class="drag-and-drop icon" id="echo">
+    <img src="./opIcon/14echo.jpg" alt="" class="drag-and-drop icon" id="echo">
+    <img src="./opIcon/15mira.jpg" alt="" class="drag-and-drop icon" id="mira">
+    <img src="./opIcon/15mira.jpg" alt="" class="drag-and-drop icon" id="mira">
+    <img src="./opIcon/15mira.jpg" alt="" class="drag-and-drop icon" id="mira">
+    <img src="./opIcon/16lesion.jpg" alt="" class="drag-and-drop icon" id="lesion">
+    <img src="./opIcon/16lesion.jpg" alt="" class="drag-and-drop icon" id="lesion">
+    <img src="./opIcon/16lesion.jpg" alt="" class="drag-and-drop icon" id="lesion">
+    <img src="./opIcon/16lesion.jpg" alt="" class="drag-and-drop icon" id="lesion">
+    <img src="./opIcon/16lesion.jpg" alt="" class="drag-and-drop icon" id="lesion">
+    <img src="./opIcon/16lesion.jpg" alt="" class="drag-and-drop icon" id="lesion">
+    <img src="./opIcon/16lesion.jpg" alt="" class="drag-and-drop icon" id="lesion">
+    <img src="./opIcon/16lesion.jpg" alt="" class="drag-and-drop icon" id="lesion">
+    <img src="./opIcon/17ela.jpg" alt="" class="drag-and-drop icon" id="ela">
+    <img src="./opIcon/17ela.jpg" alt="" class="drag-and-drop icon" id="ela">
+    <img src="./opIcon/17ela.jpg" alt="" class="drag-and-drop icon" id="ela">
+    <img src="./opIcon/17ela.jpg" alt="" class="drag-and-drop icon" id="ela">
+    <img src="./opIcon/18vigil.jpg" alt="" class="drag-and-drop icon" id="vigil">
+    <img src="./opIcon/18vigil.jpg" alt="" class="drag-and-drop icon" id="vigil">
+    <img src="./opIcon/19maestro.jpg" alt="" class="drag-and-drop icon" id="maestro">
+    <img src="./opIcon/19maestro.jpg" alt="" class="drag-and-drop icon" id="maestro">
+    <img src="./opIcon/19maestro.jpg" alt="" class="drag-and-drop icon" id="maestro">
+    <img src="./opIcon/20alibi.jpg" alt="" class="drag-and-drop icon" id="alibi">
+    <img src="./opIcon/20alibi.jpg" alt="" class="drag-and-drop icon" id="alibi">
+    <img src="./opIcon/20alibi.jpg" alt="" class="drag-and-drop icon" id="alibi">
+    <img src="./opIcon/20alibi.jpg" alt="" class="drag-and-drop icon" id="alibi">
+    <img src="./opIcon/21clash.jpg" alt="" class="drag-and-drop icon" id="clash">
+    <img src="./opIcon/21clash.jpg" alt="" class="drag-and-drop icon" id="clash">
+    <img src="./opIcon/22kaid.jpg" alt="" class="drag-and-drop icon" id="kaid">
+    <img src="./opIcon/22kaid.jpg" alt="" class="drag-and-drop icon" id="kaid">
+    <img src="./opIcon/22kaid.jpg" alt="" class="drag-and-drop icon" id="kaid">
+    <img src="./opIcon/23mozzie.jpg" alt="" class="drag-and-drop icon" id="mozzie">
+    <img src="./opIcon/23mozzie.jpg" alt="" class="drag-and-drop icon" id="mozzie">
+    <img src="./opIcon/23mozzie.jpg" alt="" class="drag-and-drop icon" id="mozzie">
+    <img src="./opIcon/23mozzie.jpg" alt="" class="drag-and-drop icon" id="mozzie">
+    <img src="./opIcon/24warden.jpg" alt="" class="drag-and-drop icon" id="warden">
+    <img src="./opIcon/24warden.jpg" alt="" class="drag-and-drop icon" id="warden">
+    <img src="./opIcon/25goyo.jpg" alt="" class="drag-and-drop icon" id="goyo">
+    <img src="./opIcon/25goyo.jpg" alt="" class="drag-and-drop icon" id="goyo">
+    <img src="./opIcon/25goyo.jpg" alt="" class="drag-and-drop icon" id="goyo">
+    <img src="./opIcon/25goyo.jpg" alt="" class="drag-and-drop icon" id="goyo">
+    <img src="./opIcon/25goyo.jpg" alt="" class="drag-and-drop icon" id="goyo">
+    <img src="./opIcon/26wamai.jpg" alt="" class="drag-and-drop icon" id="wamai">
+    <img src="./opIcon/26wamai.jpg" alt="" class="drag-and-drop icon" id="wamai">
+    <img src="./opIcon/26wamai.jpg" alt="" class="drag-and-drop icon" id="wamai">
+    <img src="./opIcon/26wamai.jpg" alt="" class="drag-and-drop icon" id="wamai">
+    <img src="./opIcon/26wamai.jpg" alt="" class="drag-and-drop icon" id="wamai">
+    <img src="./opIcon/26wamai.jpg" alt="" class="drag-and-drop icon" id="wamai">
+    <img src="./opIcon/27oryx.jpg" alt="" class="drag-and-drop icon" id="oryx">
+    <img src="./opIcon/27oryx.jpg" alt="" class="drag-and-drop icon" id="oryx">
+    <img src="./opIcon/27oryx.jpg" alt="" class="drag-and-drop icon" id="oryx">
+    <img src="./opIcon/27oryx.jpg" alt="" class="drag-and-drop icon" id="oryx">
+    <img src="./opIcon/27oryx.jpg" alt="" class="drag-and-drop icon" id="oryx">
+    <img src="./opIcon/28melusi.jpg" alt="" class="drag-and-drop icon" id="melusi">
+    <img src="./opIcon/28melusi.jpg" alt="" class="drag-and-drop icon" id="melusi">
+    <img src="./opIcon/28melusi.jpg" alt="" class="drag-and-drop icon" id="melusi">
+    <img src="./opIcon/28melusi.jpg" alt="" class="drag-and-drop icon" id="melusi">
+    <img src="./opIcon/29aruni.jpg" alt="" class="drag-and-drop icon" id="aruni">
+    <img src="./opIcon/29aruni.jpg" alt="" class="drag-and-drop icon" id="aruni">
+    <img src="./opIcon/29aruni.jpg" alt="" class="drag-and-drop icon" id="aruni">
+    <img src="./opIcon/29aruni.jpg" alt="" class="drag-and-drop icon" id="aruni">
+    <img src="./opIcon/30thunderbird.jpg" alt="" class="drag-and-drop icon" id="thunderbird">
+    <img src="./opIcon/30thunderbird.jpg" alt="" class="drag-and-drop icon" id="thunderbird">
+    <img src="./opIcon/30thunderbird.jpg" alt="" class="drag-and-drop icon" id="thunderbird">
+    <img src="./opIcon/30thunderbird.jpg" alt="" class="drag-and-drop icon" id="thunderbird">
+    <img src="./opIcon/31thorn.jpg" alt="" class="drag-and-drop icon" id="thorn">
+    <img src="./opIcon/31thorn.jpg" alt="" class="drag-and-drop icon" id="thorn">
+    <img src="./opIcon/31thorn.jpg" alt="" class="drag-and-drop icon" id="thorn">
+    <img src="./opIcon/31thorn.jpg" alt="" class="drag-and-drop icon" id="thorn">
+    <img src="./opIcon/31thorn.jpg" alt="" class="drag-and-drop icon" id="thorn">
+    <img src="./opIcon/32azami.jpg" alt="" class="drag-and-drop icon" id="azami">
+    <img src="./opIcon/32azami.jpg" alt="" class="drag-and-drop icon" id="azami">
+    <img src="./opIcon/32azami.jpg" alt="" class="drag-and-drop icon" id="azami">
+    <img src="./opIcon/32azami.jpg" alt="" class="drag-and-drop icon" id="azami">
+    <img src="./opIcon/32azami.jpg" alt="" class="drag-and-drop icon" id="azami">
+    <img src="./opIcon/32azami.jpg" alt="" class="drag-and-drop icon" id="azami">
+    <img src="./opIcon/32azami.jpg" alt="" class="drag-and-drop icon" id="azami">
+    <img src="./opIcon/32azami.jpg" alt="" class="drag-and-drop icon" id="azami">
+    <img src="./opIcon/33solis.jpg" alt="" class="drag-and-drop icon" id="solis">
+    <img src="./opIcon/33solis.jpg" alt="" class="drag-and-drop icon" id="solis">
+    <img src="./opIcon/33solis.jpg" alt="" class="drag-and-drop icon" id="solis">
+    <img src="./opIcon/33solis.jpg" alt="" class="drag-and-drop icon" id="solis">
+    <img src="./opIcon/33solis.jpg" alt="" class="drag-and-drop icon" id="solis">
+    <img src="./opIcon/33solis.jpg" alt="" class="drag-and-drop icon" id="solis">
+    <img src="./opIcon/33solis.jpg" alt="" class="drag-and-drop icon" id="solis">
+    <img src="./opIcon/33solis.jpg" alt="" class="drag-and-drop icon" id="solis">
+    <img src="./opIcon/34fenrir.jpg" alt="" class="drag-and-drop icon" id="fenrir">
+    <img src="./opIcon/34fenrir.jpg" alt="" class="drag-and-drop icon" id="fenrir">
+    <img src="./opIcon/34fenrir.jpg" alt="" class="drag-and-drop icon" id="fenrir">
+    <img src="./opIcon/34fenrir.jpg" alt="" class="drag-and-drop icon" id="fenrir">
+    <img src="./opIcon/34fenrir.jpg" alt="" class="drag-and-drop icon" id="fenrir">
+    <img src="./opIcon/34fenrir.jpg" alt="" class="drag-and-drop icon" id="fenrir">
+    <img src="./opIcon/34fenrir.jpg" alt="" class="drag-and-drop icon" id="fenrir">
+    <img src="./opIcon/34fenrir.jpg" alt="" class="drag-and-drop icon" id="fenrir">
+    <div class="reinforcement_slot">
+      <span>reinforce</span>
+    </div>
+    <img src="./gadgetIcon/reinforcement.jpg" alt="" class="reinforcement gadget drag-and-drop">
+    <img src="./gadgetIcon/reinforcement.jpg" alt="" class="reinforcement gadget drag-and-drop">
+    <img src="./gadgetIcon/reinforcement.jpg" alt="" class="reinforcement gadget drag-and-drop">
+    <img src="./gadgetIcon/reinforcement.jpg" alt="" class="reinforcement gadget drag-and-drop">
+    <img src="./gadgetIcon/reinforcement.jpg" alt="" class="reinforcement gadget drag-and-drop">
+    <img src="./gadgetIcon/reinforcement.jpg" alt="" class="reinforcement gadget drag-and-drop">
+    <img src="./gadgetIcon/reinforcement.jpg" alt="" class="reinforcement gadget drag-and-drop">
+    <img src="./gadgetIcon/reinforcement.jpg" alt="" class="reinforcement gadget drag-and-drop">
+    <img src="./gadgetIcon/reinforcement.jpg" alt="" class="reinforcement gadget drag-and-drop">
+    <img src="./gadgetIcon/reinforcement.jpg" alt="" class="reinforcement gadget drag-and-drop">
+    <div class="wire_slot">
+      <span>wire</span>
+    </div>
+    <img src="./gadgetIcon/wire.jpg" alt="" class="wire gadget drag-and-drop">
+    <img src="./gadgetIcon/wire.jpg" alt="" class="wire gadget drag-and-drop">
+    <img src="./gadgetIcon/wire.jpg" alt="" class="wire gadget drag-and-drop">
+    <img src="./gadgetIcon/wire.jpg" alt="" class="wire gadget drag-and-drop">
+    <img src="./gadgetIcon/wire.jpg" alt="" class="wire gadget drag-and-drop">
+    <img src="./gadgetIcon/wire.jpg" alt="" class="wire gadget drag-and-drop">
+    <img src="./gadgetIcon/wire.jpg" alt="" class="wire gadget drag-and-drop">
+    <img src="./gadgetIcon/wire.jpg" alt="" class="wire gadget drag-and-drop">
+    <img src="./gadgetIcon/wire.jpg" alt="" class="wire gadget drag-and-drop">
+    <img src="./gadgetIcon/wire.jpg" alt="" class="wire gadget drag-and-drop">
+    <div class="shield_slot">
+      <span>shield</span>
+    </div>
+    <img src="./gadgetIcon/shield.jpg" alt="" class="shield gadget drag-and-drop">
+    <img src="./gadgetIcon/shield.jpg" alt="" class="shield gadget drag-and-drop">
+    <img src="./gadgetIcon/shield.jpg" alt="" class="shield gadget drag-and-drop">
+    <img src="./gadgetIcon/shield.jpg" alt="" class="shield gadget drag-and-drop">
+    <img src="./gadgetIcon/shield.jpg" alt="" class="shield gadget drag-and-drop">
+    <div class="camera_slot">
+      <span>bf camera</span>
+    </div>
+    <img src="./gadgetIcon/camera.jpg" alt="" class="camera gadget drag-and-drop">
+    <img src="./gadgetIcon/camera.jpg" alt="" class="camera gadget drag-and-drop">
+    <img src="./gadgetIcon/camera.jpg" alt="" class="camera gadget drag-and-drop">
+    <img src="./gadgetIcon/camera.jpg" alt="" class="camera gadget drag-and-drop">
+    <img src="./gadgetIcon/camera.jpg" alt="" class="camera gadget drag-and-drop">
+    <img src="./gadgetIcon/camera.jpg" alt="" class="camera gadget drag-and-drop">
+    <div class="impact_slot">
+      <span>impact grenade</span>
+    </div>
+    <img src="./gadgetIcon/impact.jpg" alt="" class="impact gadget drag-and-drop">
+    <img src="./gadgetIcon/impact.jpg" alt="" class="impact gadget drag-and-drop">
+    <img src="./gadgetIcon/impact.jpg" alt="" class="impact gadget drag-and-drop">
+    <img src="./gadgetIcon/impact.jpg" alt="" class="impact gadget drag-and-drop">
+    <img src="./gadgetIcon/impact.jpg" alt="" class="impact gadget drag-and-drop">
+    <img src="./gadgetIcon/impact.jpg" alt="" class="impact gadget drag-and-drop">
+    <img src="./gadgetIcon/impact.jpg" alt="" class="impact gadget drag-and-drop">
+    <img src="./gadgetIcon/impact.jpg" alt="" class="impact gadget drag-and-drop">
+    <img src="./gadgetIcon/impact.jpg" alt="" class="impact gadget drag-and-drop">
+    <img src="./gadgetIcon/impact.jpg" alt="" class="impact gadget drag-and-drop">
+    <div class="c4_slot">
+      <span>C4</span>
+    </div>
+    <img src="./gadgetIcon/c4.jpg" alt="" class="c4 gadget drag-and-drop">
+    <img src="./gadgetIcon/c4.jpg" alt="" class="c4 gadget drag-and-drop">
+    <img src="./gadgetIcon/c4.jpg" alt="" class="c4 gadget drag-and-drop">
+    <img src="./gadgetIcon/c4.jpg" alt="" class="c4 gadget drag-and-drop">
+    <img src="./gadgetIcon/c4.jpg" alt="" class="c4 gadget drag-and-drop">
+    <div class="barricade_slot">
+      <span>barricade</span>
+    </div>
+    <img src="./gadgetIcon/barricade.jpg" alt="" class="barricade drag-and-drop">
+    <img src="./gadgetIcon/barricade.jpg" alt="" class="barricade drag-and-drop">
+    <img src="./gadgetIcon/barricade.jpg" alt="" class="barricade drag-and-drop">
+    <img src="./gadgetIcon/barricade.jpg" alt="" class="barricade drag-and-drop">
+    <img src="./gadgetIcon/barricade.jpg" alt="" class="barricade drag-and-drop">
+    <img src="./gadgetIcon/barricade.jpg" alt="" class="barricade drag-and-drop">
+    <img src="./gadgetIcon/barricade.jpg" alt="" class="barricade drag-and-drop">
+    <img src="./gadgetIcon/barricade.jpg" alt="" class="barricade drag-and-drop">
+    <img src="./gadgetIcon/barricade.jpg" alt="" class="barricade drag-and-drop">
+    <img src="./gadgetIcon/barricade.jpg" alt="" class="barricade drag-and-drop">
+    <img src="./gadgetIcon/barricade.jpg" alt="" class="barricade drag-and-drop">
+    <img src="./gadgetIcon/barricade.jpg" alt="" class="barricade drag-and-drop">
+    <img src="./gadgetIcon/barricade.jpg" alt="" class="barricade drag-and-drop">
+    <img src="./gadgetIcon/barricade.jpg" alt="" class="barricade drag-and-drop">
+    <img src="./gadgetIcon/barricade.jpg" alt="" class="barricade drag-and-drop">
+    <div class="alarm_slot">
+      <span>alarm</span>
+    </div>
+    <img src="./gadgetIcon/alarm.jpg" alt="" class="alarm gadget drag-and-drop">
+    <img src="./gadgetIcon/alarm.jpg" alt="" class="alarm gadget drag-and-drop">
+    <img src="./gadgetIcon/alarm.jpg" alt="" class="alarm gadget drag-and-drop">
+    <img src="./gadgetIcon/alarm.jpg" alt="" class="alarm gadget drag-and-drop">
+    <img src="./gadgetIcon/alarm.jpg" alt="" class="alarm gadget drag-and-drop">
+    <img src="./gadgetIcon/alarm.jpg" alt="" class="alarm gadget drag-and-drop">
+    <img src="./gadgetIcon/alarm.jpg" alt="" class="alarm gadget drag-and-drop">
+    <img src="./gadgetIcon/alarm.jpg" alt="" class="alarm gadget drag-and-drop">
+    <img src="./gadgetIcon/alarm.jpg" alt="" class="alarm gadget drag-and-drop">
+    <img src="./gadgetIcon/alarm.jpg" alt="" class="alarm gadget drag-and-drop">
+    <div class="ovblock_slot">
+      <span>observation block</span>
+    </div>
+    <img src="./gadgetIcon/observationblocker.jpg" alt="" class="ovblock gadget drag-and-drop">
+    <img src="./gadgetIcon/observationblocker.jpg" alt="" class="ovblock gadget drag-and-drop">
+    <img src="./gadgetIcon/observationblocker.jpg" alt="" class="ovblock gadget drag-and-drop">
+    <img src="./gadgetIcon/observationblocker.jpg" alt="" class="ovblock gadget drag-and-drop">
+    <img src="./gadgetIcon/observationblocker.jpg" alt="" class="ovblock gadget drag-and-drop">
+    <img src="./gadgetIcon/observationblocker.jpg" alt="" class="ovblock gadget drag-and-drop">
+    <img src="./gadgetIcon/observationblocker.jpg" alt="" class="ovblock gadget drag-and-drop">
+    <img src="./gadgetIcon/observationblocker.jpg" alt="" class="ovblock gadget drag-and-drop">
+    <img src="./gadgetIcon/observationblocker.jpg" alt="" class="ovblock gadget drag-and-drop">
+    <img src="./gadgetIcon/observationblocker.jpg" alt="" class="ovblock gadget drag-and-drop">
+  </div>
+  <!-- 防衛側のエリア　終わり -->
+  <!-- アイコン配置エリア　終わり -->
+  <!-- お絵描きエリア -->
+  <div class="container">
+    <div class="tabs">
+      <input id="bank2f" type="radio" name="tab_item" checked>
+      <label class="L1 tab_item" for="bank2f">Bank 2F</label>
+      <input id="bank1f" type="radio" name="tab_item">
+      <label class="L2 tab_item" for="bank1f">Bank 1F</label>
+      <input id="bankb1" type="radio" name="tab_item">
+      <label class="L3 tab_item" for="bankb1">Bank B1</label>
+      <input id="bartlett2f" type="radio" name="tab_item">
+      <label class="L4 tab_item" for="bartlett2f">Bartlett 2F</label>
+      <input id="bartlett1f" type="radio" name="tab_item">
+      <label class="L5 tab_item" for="bartlett1f">Bartlett 1F</label>
+      <input id="border2f" type="radio" name="tab_item">
+      <label class="L6 tab_item" for="border2f">Border 2F</label>
+      <input id="border1f" type="radio" name="tab_item">
+      <label class="L7 tab_item" for="border1f">Border 1F</label>
+      <input id="cafe3f" type="radio" name="tab_item">
+      <label class="L8 tab_item" for="cafe3f">Cafe 3F</label>
+      <input id="cafe2f" type="radio" name="tab_item">
+      <label class="L9 tab_item" for="cafe2f">Cafe 2F</label>
+      <input id="cafe1f" type="radio" name="tab_item">
+      <label class="L10 tab_item" for="cafe1f">Cafe 1F</label>
+      <input id="chalet2f" type="radio" name="tab_item">
+      <label class="L11 tab_item" for="chalet2f">Chalet 2F</label>
+      <input id="chalet1f" type="radio" name="tab_item">
+      <label class="L12 tab_item" for="chalet1f">Chalet 1F</label>
+      <input id="chaletb1" type="radio" name="tab_item">
+      <label class="L13 tab_item" for="chaletb1">Chalet B1</label>
+      <input id="club2f" type="radio" name="tab_item">
+      <label class="L14 tab_item" for="club2f">Club 2F</label>
+      <input id="club1f" type="radio" name="tab_item">
+      <label class="L15 tab_item" for="club1f">Club 1F</label>
+      <input id="clubb1" type="radio" name="tab_item">
+      <label class="L16 tab_item" for="clubb1">Club B1</label>
+      <input id="coastline2f" type="radio" name="tab_item">
+      <label class="L17 tab_item" for="coastline2f">Coatline 2F</label>
+      <input id="coastline1f" type="radio" name="tab_item">
+      <label class="L18 tab_item" for="coastline1f">Coatline 1F</label>
+      <input id="consulate2f" type="radio" name="tab_item">
+      <label class="L19 tab_item" for="consulate2f">Consulate 2F</label>
+      <input id="consulate1f" type="radio" name="tab_item">
+      <label class="L20 tab_item" for="consulate1f">Consulate 1F</label>
+      <input id="consulateb1" type="radio" name="tab_item">
+      <label class="L21 tab_item" for="consulateb1">Consulate B1</label>
+      <input id="favela3f" type="radio" name="tab_item">
+      <label class="L22 tab_item" for="favela3f">Favela 3F</label>
+      <input id="favela2f" type="radio" name="tab_item">
+      <label class="L23 tab_item" for="favela2f">Favela 2F</label>
+      <input id="favela1f" type="radio" name="tab_item">
+      <label class="L24 tab_item" for="favela1f">Favela 1F</label>
+      <input id="fortress2f" type="radio" name="tab_item">
+      <label class="L25 tab_item" for="fortress2f">Fortress 2F</label>
+      <input id="fortress1f" type="radio" name="tab_item">
+      <label class="L26 tab_item" for="fortress1f">Fortress 1F</label>
+      <input id="hereford3f" type="radio" name="tab_item">
+      <label class="L27 tab_item" for="hereford3f">Hereford 3F</label>
+      <input id="hereford2f" type="radio" name="tab_item">
+      <label class="L28 tab_item" for="hereford2f">Hereford 2F</label>
+      <input id="hereford1f" type="radio" name="tab_item">
+      <label class="L29 tab_item" for="hereford1f">Hereford 1F</label>
+      <input id="herefordb1" type="radio" name="tab_item">
+      <label class="L30 tab_item" for="herefordb1">Hereford B1</label>
+      <input id="house2f" type="radio" name="tab_item">
+      <label class="L31 tab_item" for="house2f">House 2F</label>
+      <input id="house1f" type="radio" name="tab_item">
+      <label class="L32 tab_item" for="house1f">House 1F</label>
+      <input id="houseb1" type="radio" name="tab_item">
+      <label class="L33 tab_item" for="houseb1">House B1</label>
+      <input id="kanal2f" type="radio" name="tab_item">
+      <label class="R1 tab_item" for="kanal2f">Kanal 2F</label>
+      <input id="kanal1f" type="radio" name="tab_item">
+      <label class="R2 tab_item" for="kanal1f">Kanal 1F</label>
+      <input id="kanalb1" type="radio" name="tab_item">
+      <label class="R3 tab_item" for="kanalb1">Kanal B1</label>
+      <input id="kanalb2" type="radio" name="tab_item">
+      <label class="R4 tab_item" for="kanalb2">Kanal B2</label>
+      <input id="oregon3f" type="radio" name="tab_item">
+      <label class="R5 tab_item" for="oregon3f">Oregon 3F</label>
+      <input id="oregon2f" type="radio" name="tab_item">
+      <label class="R6 tab_item" for="oregon2f">Oregon 2F</label>
+      <input id="oregon1f" type="radio" name="tab_item">
+      <label class="R7 tab_item" for="oregon1f">Oregon 1F</label>
+      <input id="oregonb1" type="radio" name="tab_item">
+      <label class="R8 tab_item" for="oregonb1">Oregon B1</label>
+      <input id="outback2fa" type="radio" name="tab_item">
+      <label class="R9 tab_item" for="outback2fa">Outback 2F A</label>
+      <input id="outback2fb" type="radio" name="tab_item">
+      <label class="R10 tab_item" for="outback2fb">Outback 2F B</label>
+      <input id="outback1fa" type="radio" name="tab_item">
+      <label class="R11 tab_item" for="outback1fa">Outback 1F A</label>
+      <input id="outback1fb" type="radio" name="tab_item">
+      <label class="R12 tab_item" for="outback1fb">Outback 1F B</label>
+      <input id="plane3fa" type="radio" name="tab_item">
+      <label class="R13 tab_item" for="plane3fa">Plane 3F A</label>
+      <input id="plane3fb" type="radio" name="tab_item">
+      <label class="R14 tab_item" for="plane3fb">Plane 3F B</label>
+      <input id="plane2fa" type="radio" name="tab_item">
+      <label class="R15 tab_item" for="plane2fa">Plane 2F A</label>
+      <input id="plane2fb" type="radio" name="tab_item">
+      <label class="R16 tab_item" for="plane2fb">Plane 2F B</label>
+      <input id="plane1fa" type="radio" name="tab_item">
+      <label class="R17 tab_item" for="plane1fa">Plane 1F A</label>
+      <input id="plane1fb" type="radio" name="tab_item">
+      <label class="R18 tab_item" for="plane1fb">Plane 1F B</label>
+      <input id="skyscraper2f" type="radio" name="tab_item">
+      <label class="R19 tab_item" for="skyscraper2f">Skyscraper 2F</label>
+      <input id="skyscraper1f" type="radio" name="tab_item">
+      <label class="R20 tab_item" for="skyscraper1f">Skyscraper 1F</label>
+      <input id="themepark2f" type="radio" name="tab_item">
+      <label class="R21 tab_item" for="themepark2f">Themepark 2F</label>
+      <input id="themepark1f" type="radio" name="tab_item">
+      <label class="R22 tab_item" for="themepark1f">Themepark 1F</label>
+      <input id="tower2fa" type="radio" name="tab_item">
+      <label class="R23 tab_item" for="tower2fa">Tower 2F A</label>
+      <input id="tower2fb" type="radio" name="tab_item">
+      <label class="R24 tab_item" for="tower2fb">Tower 2F B</label>
+      <input id="tower1fa" type="radio" name="tab_item">
+      <label class="R25 tab_item" for="tower1fa">Tower 1F A</label>
+      <input id="tower1fb" type="radio" name="tab_item">
+      <label class="R26 tab_item" for="tower1fb">Tower 1F B</label>
+      <input id="villa2f" type="radio" name="tab_item">
+      <label class="R27 tab_item" for="villa2f">Villa 2F</label>
+      <input id="villa1f" type="radio" name="tab_item">
+      <label class="R28 tab_item" for="villa1f">Villa 1F</label>
+      <input id="villab1" type="radio" name="tab_item">
+      <label class="R29 tab_item" for="villab1">Villa B1</label>
+      <input id="yacht4f" type="radio" name="tab_item">
+      <label class="R30 tab_item" for="yacht4f">Yacht 4F</label>
+      <input id="yacht3f" type="radio" name="tab_item">
+      <label class="R31 tab_item" for="yacht3f">Yacht 3F</label>
+      <input id="yacht2fa" type="radio" name="tab_item">
+      <label class="R32 tab_item" for="yacht2fa">Yacht 2F A</label>
+      <input id="yacht2fb" type="radio" name="tab_item">
+      <label class="R33 tab_item" for="yacht2fb">Yacht 2F B</label>
+      <input id="yacht1fa" type="radio" name="tab_item">
+      <label class="R34 tab_item" for="yacht1fa">Yacht 1F A</label>
+      <input id="yacht1fb" type="radio" name="tab_item">
+      <label class="R35 tab_item" for="yacht1fb">Yacht 1F B</label>
+      <div class="tab_content" id="bank2f">
+        <img src="./mapImg/bank2f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="bank1f">
+        <img src="./mapImg/bank1f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="bankb1">
+        <img src="./mapImg/bankb1.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="border2f">
+        <img src="./mapImg/border2f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="border1f">
+        <img src="./mapImg/border1f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="cafe3f">
+        <img src="./mapImg/cafe3f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="cafe2f">
+        <img src="./mapImg/cafe2f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="cafe1f">
+        <img src="./mapImg/cafe1f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="club2f">
+        <img src="./mapImg/club2f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="club1f">
+        <img src="./mapImg/club1f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="clubb1">
+        <img src="./mapImg/clubb1.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="coastline2f">
+        <img src="./mapImg/coastline2f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="coastline1f">
+        <img src="./mapImg/coastline1f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="consulate2f">
+        <img src="./mapImg/consulate2f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="consulate1f">
+        <img src="./mapImg/consulate1f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="consulateb1">
+        <img src="./mapImg/consulateb1.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="villa2f">
+        <img src="./mapImg/villa2f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="villa1f">
+        <img src="./mapImg/villa1f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="villab1">
+        <img src="./mapImg/villab1.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="outback2fa">
+        <img src="./mapImg/outback2fa.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="outback2fb">
+        <img src="./mapImg/outback2fb.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="outback1fa">
+        <img src="./mapImg/outback1fa.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="outback1fb">
+        <img src="./mapImg/outback1fb.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="fortress2f">
+        <img src="./mapImg/fortress2f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="fortress1f">
+        <img src="./mapImg/fortress1f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="tower2fa">
+        <img src="./mapImg/tower2fa.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="tower2fb">
+        <img src="./mapImg/tower2fb.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="tower1fa">
+        <img src="./mapImg/tower1fa.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="tower1fb">
+        <img src="./mapImg/tower1fb.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="bartlett2f">
+        <img src="./mapImg/bartlett2f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="bartlett1f">
+        <img src="./mapImg/bartlett1f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="favela3f">
+        <img src="./mapImg/favela3f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="favela2f">
+        <img src="./mapImg/favela2f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="favela1f">
+        <img src="./mapImg/favela1f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="yacht4f">
+        <img src="./mapImg/yacht4f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="yacht3f">
+        <img src="./mapImg/yacht3f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="yacht2fa">
+        <img src="./mapImg/yacht2fa.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="yacht2fb">
+        <img src="./mapImg/yacht2fb.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="yacht1fa">
+        <img src="./mapImg/yacht1fa.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="yacht1fb">
+        <img src="./mapImg/yacht1fb.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="plane3fa">
+        <img src="./mapImg/plane3fa.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="plane3fb">
+        <img src="./mapImg/plane3fb.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="plane2fa">
+        <img src="./mapImg/plane2fa.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="plane2fb">
+        <img src="./mapImg/plane2fb.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="plane1fa">
+        <img src="./mapImg/plane1fa.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="plane1fb">
+        <img src="./mapImg/plane1fb.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="skyscraper2f">
+        <img src="./mapImg/skyscraper2f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="skyscraper1f">
+        <img src="./mapImg/skyscraper1f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="oregon3f">
+        <img src="./mapImg/oregon3f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="oregon2f">
+        <img src="./mapImg/oregon2f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="oregon1f">
+        <img src="./mapImg/oregon1f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="oregonb1">
+        <img src="./mapImg/oregonb1.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="chalet2f">
+        <img src="./mapImg/chalet2f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="chalet1f">
+        <img src="./mapImg/chalet1f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="chaletb1">
+        <img src="./mapImg/chaletb1.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="hereford3f">
+        <img src="./mapImg/hereford3f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="hereford2f">
+        <img src="./mapImg/hereford2f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="hereford1f">
+        <img src="./mapImg/hereford1f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="herefordb1">
+        <img src="./mapImg/herefordb1.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="kanal2f">
+        <img src="./mapImg/kanal2f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="kanal1f">
+        <img src="./mapImg/kanal1f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="kanalb1">
+        <img src="./mapImg/kanalb1.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="kanalb2">
+        <img src="./mapImg/kanalb2.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="themepark2f">
+        <img src="./mapImg/themepark2f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="themepark1f">
+        <img src="./mapImg/themepark1f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="house2f">
+        <img src="./mapImg/house2f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="house1f">
+        <img src="./mapImg/house1f.jpg" alt="" class="map">
+      </div>
+      <div class="tab_content" id="houseb1">
+        <img src="./mapImg/houseb1.jpg" alt="" class="map">
+      </div>
+    </div>
+    <canvas id="canvas" width="1600" height="900"></canvas><br>
+    <div class="palette">
+      <label>色<input id="color" type="color"></label>
+      <label>太さ<input id="width" type="number" min="1" max="30"></label>
+      <input type="button" class="btn" id="reset_icon" value="reset icon" onClick="reset_icon()">
+      <input type="button" class="btn" id="delete_canvas" value="reset canvas" onClick="delete_canvas()">
+      <input type="button" class="btn" id="all_reset" value="reset all" onClick="all_reset()">
+      <input type="image" id="pencil" src="./toolIcon/1.jpg" width="35px" class="active" onClick="tool(1)">
+      <input type="image" id="eraser" src="./toolIcon/2.jpg" width="35px" onClick="tool(2)">
+    </div>
+  </div>
+  <!-- お絵描きエリア　終わり -->
+  <script type="text/javascript">
+    // アイコンの配置リセット
+    var elements = document.getElementsByClassName("drag-and-drop");
+    var array = [];
+    for (var i = 0; i < elements.length; i++) {
+      array[i] = {}
+      array[i].top = elements[i].style.top;
+      array[i].left = elements[i].style.left;
+    }
+
+    function reset_icon() {
+      ret = confirm('Reset the icon placement.');
+      if (ret == true) {
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].style.top = array[i].top;
+          elements[i].style.left = array[i].left;
+        }
+      }
+    }
+    //　アイコンの配置リセット　終わり
+    function all_reset() {
+      ret = confirm('Reset icon placement and drawing.');
+      if (ret == true) {
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].style.top = array[i].top;
+          elements[i].style.left = array[i].left;
+        }
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+      }
+    }
+  </script>
+  <script type="text/javascript" src="Drag.js"></script>
+  <script type="text/javascript" src="canvas.js"></script>
+</body>
+
+</html>
