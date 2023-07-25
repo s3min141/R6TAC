@@ -80,7 +80,7 @@ body {
   border: 0.1rem solid white;
   display: block;
   width: 730px;
-  height: 115px;
+  height: 150px;
   position: relative;
   margin-top: 20px;
   margin-left: 20px;
@@ -445,7 +445,7 @@ body {
   font-size: 12px;
 }
 .ovblock_slot {
-  width: 70px;
+  width: 90px;
   height: 90px;
   position: absolute;
   top: 75px;
@@ -456,7 +456,7 @@ body {
 .ovblock {
   position: absolute;
   top: 125px;
-  left: 764px;
+  left: 773px;
   border: 2px solid rgb(0, 255, 128);
 }
 .ovblock_slot span {
@@ -1187,6 +1187,10 @@ label {
 #sens {
   top: 65px;
   left: 685px;
+}
+#brava {
+  top: 105px;
+  left: 10px;
 }
 #kattu {
   top: 65px;
