@@ -633,6 +633,19 @@ body {
   top: 972.8px;
   left: 1620px;
 }
+.L34 {
+  top: 1002.8px;
+  left: 1620px;
+}
+.L35 {
+  top: 1032.8px;
+  left: 1620px;
+}
+.L36 {
+  top: 1062.8px;
+  left: 1620px;
+}
+
 .R1 {
   top: 12.8px;
   left: 1758px;
@@ -858,7 +871,10 @@ input[name="tab_item"] {
 #yacht2fa:checked ~ #yacht2fa,
 #yacht2fb:checked ~ #yacht2fb,
 #yacht1fa:checked ~ #yacht1fa,
-#yacht1fb:checked ~ #yacht1fb {
+#yacht1fb:checked ~ #yacht1fb,
+#lab2f:checked ~ #lab2f,
+#lab1f:checked ~ #lab1f,
+#labb1:checked ~ #labb1 {
   display: block;
 }
 
@@ -1191,6 +1207,10 @@ label {
 #brava {
   top: 105px;
   left: 10px;
+}
+#ram {
+  top: 105px;
+  left: 55px;
 }
 #kattu {
   top: 65px;
